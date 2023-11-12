@@ -1,0 +1,167 @@
+@font-face {
+  font-family: Roboto, sans-serif;
+  src: url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Noto+Serif:wght@300&family=Raleway:wght@700&family=Roboto:wght@100&display=swap);
+}
+
+.h1 {
+  display: grid;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 0.5em;
+  font-style: normal;
+  font-weight: normal;
+  color: #f1d3b9;
+  background-color: #b4604d;
+}
+
+.header {
+  display: flex;
+  background-color: #f6f4ec;
+  align-content: center;
+}
+
+.logo {
+  display: flex;
+  padding-left: 27vw;
+  padding-right: 40vw;
+  justify-content: center;
+  /*  чтобы лого не сьезжало при смене окна что нужно сделать? остальным элементам тоже флекс назначить? */
+}
+
+.main {
+  display: grid;
+  background-color: #a9ae8d;
+}
+
+.a {
+  float: left;
+  text-decoration: none;
+  color: #b4604d;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 1vw;
+}
+.account {
+  float: right;
+  text-decoration: none;
+  color: #b4604d;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 1vw;
+}
+
+.section {
+  width: 100%;
+  margin: 0;
+}
+
+/* не смогла кнопку поместить на картинку, пыталась сделать ее через background-image, но относительный путь не подошел для url */
+.button {
+  display: flex;
+  width: 128px;
+  height: 48px;
+  flex-shrink: 0;
+  font-family: Roboto, sans-serif;
+  background-color: #b45f4d;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  margin-left: 45vw;
+  align-items: center;
+}
+.backgroundcosmetic {
+  width: 100vw;
+}
+
+.section2 {
+  margin: 0;
+  width: 100vw;
+  /* Сюда я хотела поставить height: 20vh; но тогда текст скроется, а он у меня какой-то огромный вышел */
+  background-color: #a9ae8d;
+}
+
+.h2 {
+  color: #f6f4ec;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.8px; /* 160% */
+  padding-left: 2vw;
+  padding: 4vh;
+}
+
+.p1 {
+  color: #f6f4ec;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  padding: 3vw;
+}
+.p2 {
+  color: #f6f4ec;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.2px;
+  padding: 3vw;
+  /* не поняла как выстроить правильно паддинги, чтобы было как в макете, пока всё корявое какое-то */
+}
+
+.content {
+  margin: 0;
+  background-color: #f6f4ec;
+}
+
+.pick_bottle {
+  text-align: center;
+  color: #b45f4d;
+  font-family: Roboto, sans-serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.section3 {
+  background-color: #f6f4ec;
+}
+
+.content_menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.h3 {
+  color: #b45f4d;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-transform: uppercase;
+}
+
+.h4 {
+  color: #b45f4d;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.product {
+  display: grid;
+  width: 100%;
+}
+/* я не смогла сделать адаптивную верстку, так как картинки у меня если вставали в колонку, то все сразу код был такой: homework\2parth homework\text */
